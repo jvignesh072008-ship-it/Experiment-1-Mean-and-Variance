@@ -50,7 +50,7 @@ Name:Rougith D
 Reg No:25017014
 Slot Name: 3P1-1
 
-
+```
 import numpy as np 
  
 # Input: Enter the number of arrivals separated by space 
@@ -93,7 +93,7 @@ print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 
 
 https://colab.research.google.com/drive/1-Szfd-jtp9SabY55tLotmtePtCw4rB8o?usp=sharing
-
+```
 # Output:
 <img width="1268" height="111" alt="Screenshot 2025-11-17 140705" src="https://github.com/user-attachments/assets/1be11d30-3995-46d5-8b60-52009709753c" />
 
