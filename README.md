@@ -46,15 +46,56 @@ It is calculated as:
 
 
 # Program: 
+Name:Rougith D
+Reg No:25017014
+Slot Name: 3P1-1
+
+
+import numpy as np 
+ 
+# Input: Enter the number of arrivals separated by space 
+L = [int(i) for i in input("Enter arrival data: ").split()] 
+ 
+N = len(L) 
+M = max(L) 
+x = [] 
+f = [] 
+ 
+# Counting frequency of each arrival 
+for i in range(M + 1): 
+    c = 0 
+    for j in range(N): 
+        if L[j] == i: 
+            c += 1 
+    f.append(c) 
+    x.append(i) 
+ 
+sf = np.sum(f) 
+ 
+# Calculating probability for each occurrence 
+p = [f[i] / sf for i in range(M + 1)] 
+ 
+# Mean of arrival (expected value) 
+mean = np.inner(x, p) 
+ 
+# Second moment (E[X²]) 
+EX2 = np.inner(np.square(x), p) 
+ 
+# Variance and standard deviation 
+var = EX2 - mean**2 
+SD = np.sqrt(var) 
+ 
+print(f"The Mean arrival rate is {mean:.3f}") 
+print(f"The Variance of arrival from feeder is {var:.3f}") 
+print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 
 
 
 
-
-
-
+https://colab.research.google.com/drive/1-Szfd-jtp9SabY55tLotmtePtCw4rB8o?usp=sharing
 
 # Output:
+<img width="1268" height="166" alt="Screenshot 2025-11-17 140705" src="https://github.com/user-attachments/assets/862701e7-80f5-4261-96c7-3a20358e6c5a" />
 
 
 
