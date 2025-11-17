@@ -95,7 +95,8 @@ print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 https://colab.research.google.com/drive/1-Szfd-jtp9SabY55tLotmtePtCw4rB8o?usp=sharing
 
 # Output:
-<img width="1268" height="166" alt="Screenshot 2025-11-17 140705" src="https://github.com/user-attachments/assets/862701e7-80f5-4261-96c7-3a20358e6c5a" />
+<img width="1268" height="111" alt="Screenshot 2025-11-17 140705" src="https://github.com/user-attachments/assets/1be11d30-3995-46d5-8b60-52009709753c" />
+
 
 
 
