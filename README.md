@@ -20,6 +20,7 @@ It is calculated as:
 
 
 # Algorithm: Mean, Variance, and Standard Deviation of Feeder Arrivals
+```
 
 
 
@@ -38,8 +39,7 @@ It is calculated as:
 
 
 
-
-
+```
 # Program: 
 ```
 Name:Vignesh J
